@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PageOrientations.Pages.Navigation_Pages_.NavPage3"
+             Title="NavPage3"
+             BackgroundColor="Purple">
+    <VerticalStackLayout>
+        <Label 
+                Text="This is Content Page 3"
+                FontSize="20"
+                FontAttributes="Bold"
+                Margin="20"
+                TextColor="White"
+                HorizontalOptions="Center"/>
+        <Button 
+                x:Name="navContentPage3Button"
+                Text="Go to Page 2"
+                Margin="20"
+                Clicked="navContentPage3Button_Clicked">
+        </Button>
+        <Button 
+                x:Name="navContentPageBackButton"
+                Text="Go Back to Home"
+                Margin="20"
+                Clicked="navContentPageBackButton_Clicked">
+        </Button>
+    </VerticalStackLayout>
+</ContentPage>
